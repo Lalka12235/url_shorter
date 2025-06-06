@@ -1,4 +1,8 @@
-from pydantic import BaseModel, AnyUrl
+from pydantic import BaseModel, AnyHttpUrl
 
-class Link(BaseModel):
-    url: AnyUrl
+class LinkCreate(BaseModel):
+    original_url: AnyHttpUrl
+
+class LinkOut(BaseModel):
+    short_code: str
+    original_url: AnyHttpUrl

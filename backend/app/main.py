@@ -8,8 +8,9 @@ from app.api.v1.link_router import link
 configure_logging()
 
 app = FastAPI(
-    title='FastAPI Template',
-    description='Just use in your project'
+    title='Url shorter',
+    description='',
+    version='1.0'
 )
 
 app.add_middleware(LogMiddleware)
