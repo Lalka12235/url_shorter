@@ -8,3 +8,7 @@ engine = create_engine(
 )
 
 Session = sessionmaker(bind=engine)
+
+def get_db():
+    with session() as session:
+        yield session

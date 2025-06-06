@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.logger.log_config import configure_logging
 from app.middleware.log_middleware import LogMiddleware
 
+from app.api.v1.link_router import link
+
 configure_logging()
 
 app = FastAPI(
@@ -11,6 +13,8 @@ app = FastAPI(
 )
 
 app.add_middleware(LogMiddleware)
+app.include_router(link)
+
 
 origins = [
     "http://localhost",
