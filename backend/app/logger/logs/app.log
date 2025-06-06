@@ -1,0 +1,25 @@
+[2025-05-11 13:39:27] uvicorn.error:318 INFO    - Will watch for changes in these directories: ['D:\\Programming\\fastapi_template\\backend']
+[2025-05-11 13:39:27] uvicorn.error:524 INFO    - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2025-05-11 13:39:27] uvicorn.error:80 INFO    - Started reloader process [18616] using WatchFiles
+[2025-05-11 13:39:27] uvicorn.error:83 INFO    - Started server process [22204]
+[2025-05-11 13:39:27] uvicorn.error:48 INFO    - Waiting for application startup.
+[2025-05-11 13:39:27] uvicorn.error:62 INFO    - Application startup complete.
+[2025-05-11 13:41:01] uvicorn.error:263 INFO    - Shutting down
+[2025-05-11 13:41:01] uvicorn.error:67 INFO    - Waiting for application shutdown.
+[2025-05-11 13:41:01] uvicorn.error:76 INFO    - Application shutdown complete.
+[2025-05-11 13:41:01] uvicorn.error:93 INFO    - Finished server process [22204]
+[2025-05-11 13:41:01] uvicorn.error:116 INFO    - Stopping reloader process [18616]
+[2025-05-11 13:41:03] uvicorn.error:318 INFO    - Will watch for changes in these directories: ['D:\\Programming\\fastapi_template\\backend']
+[2025-05-11 13:41:03] uvicorn.error:524 INFO    - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2025-05-11 13:41:03] uvicorn.error:80 INFO    - Started reloader process [13500] using WatchFiles
+[2025-05-11 13:41:04] uvicorn.error:83 INFO    - Started server process [21356]
+[2025-05-11 13:41:04] uvicorn.error:48 INFO    - Waiting for application startup.
+[2025-05-11 13:41:04] uvicorn.error:62 INFO    - Application startup complete.
+[2025-05-11 13:43:01] uvicorn.error:263 INFO    - Shutting down
+[2025-05-11 13:43:01] uvicorn.error:67 INFO    - Waiting for application shutdown.
+[2025-05-11 13:43:01] uvicorn.error:76 INFO    - Application shutdown complete.
+[2025-05-11 13:43:01] uvicorn.error:93 INFO    - Finished server process [21356]
+[2025-05-11 13:43:01] uvicorn.error:116 INFO    - Stopping reloader process [13500]
+[2025-05-11 13:48:43] uvicorn.error:55 WARNING - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-05-31 05:15:23] root:25 INFO    - GET http://127.0.0.1:8000/docs - 200 - 0.72ms
+[2025-05-31 05:15:23] root:25 INFO    - GET http://127.0.0.1:8000/openapi.json - 200 - 0.70ms
