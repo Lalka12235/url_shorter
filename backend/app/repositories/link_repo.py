@@ -1,6 +1,5 @@
-from sqlalchemy import select,insert,update,delete
-from app.config.session import get_db,Session
-from fastapi import Depends
+from sqlalchemy import select,insert
+from app.config.session import Session
 from app.models.link_model import LinkModel
 from app.schemas.link_schemas import LinkCreate
 
